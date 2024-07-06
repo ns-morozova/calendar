@@ -5,10 +5,4 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: '/calendar/',
   plugins: [react()],
-  // build: {
-  //   outDir: 'dist',
-  //   rollupOptions: {
-  //     input: './src/main.tsx',
-  //   },
-  // },
 })
