@@ -3,11 +3,12 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/calendar/',
   plugins: [react()],
-  build: {
-    outDir: 'dist',
-    rollupOptions: {
-      input: './src/main.tsx', // этот путь может отличаться в зависимости от структуры вашего проекта
-    },
-  },
+  // build: {
+  //   outDir: 'dist',
+  //   rollupOptions: {
+  //     input: './src/main.tsx',
+  //   },
+  // },
 })
